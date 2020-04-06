@@ -1,0 +1,36 @@
+:root {
+  --bright-blue: #3273dc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border-top: 8px solid var(--bright-blue);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  flex: 1;  
+}
+
+header {
+  background-color: #f7f7f7;
+  padding: 40px;
+}
+main p {
+  line-height: 25px;
+}
+
+footer {
+  background-color: var(--bright-blue);
+}
+footer .wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
